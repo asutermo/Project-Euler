@@ -22,7 +22,6 @@ int main(int argc, char *argv[])
 		}	
 		if (prime) {
 			primeSum += i;
-			cout << i << endl;
 		}
 		else {
 			prime = true;
