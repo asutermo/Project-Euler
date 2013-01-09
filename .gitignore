@@ -1,0 +1,10 @@
+*.out
+*.output
+*.DS_Store
+makefile
+*.o
+*.win
+*.Win
+*.exe
+*.sln
+*.dll
