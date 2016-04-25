@@ -5,3 +5,5 @@
 using namespace std;
 
 int ProblemOne();
+long ProblemTwo();
+long long ProblemThree();

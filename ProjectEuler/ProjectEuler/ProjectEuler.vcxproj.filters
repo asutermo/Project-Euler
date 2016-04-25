@@ -13,23 +13,32 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Problem11">
-      <UniqueIdentifier>{e88a4461-ff02-4b1f-bae5-7900e306ea8f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Problem1">
+    <Filter Include="Source Files\Problems">
       <UniqueIdentifier>{4a500805-3e58-4578-bf2d-8ed5303ca3e8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Problem1.cpp">
-      <Filter>Source Files\Problem1</Filter>
+      <Filter>Source Files\Problems</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem2.cpp">
+      <Filter>Source Files\Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem3.cpp">
+      <Filter>Source Files\Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="ProblemHelpers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Problem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProblemHelpers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
