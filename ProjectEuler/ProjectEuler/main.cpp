@@ -9,6 +9,12 @@ int main(int argc, char *argv[])
 {
     int solution = ProblemOne();
     std::cout << "Problem 1: " << solution << std::endl;
+
+    long solution2 = ProblemTwo();
+    std::cout << "Problem 2: " << solution2 << std::endl;
+
+    long long solution3 = ProblemThree();
+    std::cout << "Problem 3: " << solution3 << std::endl;
     system("PAUSE");
     return EXIT_SUCCESS;
 }
