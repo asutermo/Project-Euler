@@ -6,5 +6,7 @@ makefile
 *.win
 *.Win
 *.exe
-*.sln
+*.sdf
+*.suo
+*.opendb
 *.dll
