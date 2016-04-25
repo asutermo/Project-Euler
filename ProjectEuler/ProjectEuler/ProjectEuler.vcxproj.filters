@@ -13,5 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Problem11">
+      <UniqueIdentifier>{e88a4461-ff02-4b1f-bae5-7900e306ea8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Problem1">
+      <UniqueIdentifier>{4a500805-3e58-4578-bf2d-8ed5303ca3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Problem1">
+      <UniqueIdentifier>{ae5b1fb9-d5d0-4341-a932-2290ed41f820}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Problem1.cpp">
+      <Filter>Source Files\Problem1</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Problem1.h">
+      <Filter>Header Files\Problem1</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

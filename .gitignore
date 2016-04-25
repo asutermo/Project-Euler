@@ -10,3 +10,10 @@ makefile
 *.suo
 *.opendb
 *.dll
+*.tlog
+*.lastbuildstate
+*.pdb
+*.idb
+*.obj
+*.ilk
+*.log
