@@ -1,6 +1,6 @@
-#include "Problem1.h"
+#include "Problem.h"
 
-void SolveProblemOne()
+int ProblemOne()
 {
     int sum = 0;
     int i = 0;
@@ -11,5 +11,5 @@ void SolveProblemOne()
         i++;
     }
 
-    cout << "The sum is: " << sum << endl;
+    return sum;
 }

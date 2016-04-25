@@ -19,9 +19,6 @@
     <Filter Include="Source Files\Problem1">
       <UniqueIdentifier>{4a500805-3e58-4578-bf2d-8ed5303ca3e8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Problem1">
-      <UniqueIdentifier>{ae5b1fb9-d5d0-4341-a932-2290ed41f820}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Problem1.cpp">
@@ -32,8 +29,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Problem1.h">
-      <Filter>Header Files\Problem1</Filter>
+    <ClInclude Include="Problem.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
