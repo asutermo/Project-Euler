@@ -33,6 +33,9 @@
     <ClCompile Include="ProblemHelpers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Problem4.cpp">
+      <Filter>Source Files\Problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Problem.h">
