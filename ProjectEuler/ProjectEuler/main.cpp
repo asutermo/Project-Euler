@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     //long long solution3 = ProblemThree();
     //std::cout << "Problem 3: " << solution3 << std::endl;
 
-    long long solution4 = ProblemFour();
+    int solution4 = ProblemFour();
     std::cout << "Problem 4: " << solution4 << std::endl;
     system("PAUSE");
     return EXIT_SUCCESS;
