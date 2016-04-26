@@ -1,5 +1,5 @@
 #include "ProblemHelpers.h"
-
+#include <sstream>
 
 unsigned long fibonacci(unsigned long n)
 {
@@ -30,4 +30,20 @@ bool prime_factor(unsigned long long pf_check)
     }
 
     return true;
+}
+
+string convertInt(long long number)
+{
+    stringstream ss;
+    ss << number;
+    return ss.str();
+}
+
+string reverseString(string str)
+{
+    string result = "";
+    for (int i = 0; i < str.length(); i++) {
+        result = str[i] + result;
+    }
+    return result;
 }

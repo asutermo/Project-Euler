@@ -12,7 +12,7 @@ long long ProblemThree()
     {
         if (prime_factor(i) && num % i == 0)
             largest_prime = i;
-        i++;
+        ++i;
     }
     return largest_prime;
 }
