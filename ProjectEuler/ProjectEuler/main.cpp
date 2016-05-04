@@ -25,6 +25,9 @@ int main(int argc, char *argv[])
     int solution6 = ProblemSix();
     std::cout << "Problem 6: " << solution6 << std::endl;
 
+    int solution7 = ProblemSeven();
+    std::cout << "Problem 7: " << solution7 << std::endl;
+
     system("PAUSE");
     return EXIT_SUCCESS;
 }

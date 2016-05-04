@@ -10,3 +10,4 @@ long long ProblemThree();
 int ProblemFour();
 unsigned long ProblemFive();
 int ProblemSix();
+int ProblemSeven();
