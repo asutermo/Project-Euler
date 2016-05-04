@@ -1,7 +1,7 @@
 #include "ProblemHelpers.h"
 #include <sstream>
 
-unsigned long fibonacci(unsigned long n)
+unsigned long Fibonacci(unsigned long n)
 {
     int fib = 0;
     int fib1 = 1;
@@ -19,7 +19,7 @@ unsigned long fibonacci(unsigned long n)
     return fib;
 }
 
-bool prime_factor(unsigned long long pf_check)
+bool PrimeFactor(unsigned long long pf_check)
 {
     unsigned long long j = 2;
     while (j < pf_check)
@@ -32,14 +32,14 @@ bool prime_factor(unsigned long long pf_check)
     return true;
 }
 
-string convertInt(long long number)
+string ConvertInt(long long number)
 {
     stringstream ss;
     ss << number;
     return ss.str();
 }
 
-string reverseString(string str)
+string ReverseString(string str)
 {
     string result = "";
     for (int i = 0; i < str.length(); i++) {

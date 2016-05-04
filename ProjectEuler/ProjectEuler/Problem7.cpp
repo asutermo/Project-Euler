@@ -10,7 +10,7 @@ int ProblemSeven() {
     while (primeCount <= MAX_PRIME) {
 
         currentNumber++;
-        numberRoot = sqrt(currentNumber);
+        numberRoot = (int)sqrt(currentNumber);
         for (int i = 2; i <= numberRoot; i++) {
             if (currentNumber % i == 0) {
                 prime = false;

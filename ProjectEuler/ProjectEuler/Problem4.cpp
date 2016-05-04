@@ -8,8 +8,8 @@ int ProblemFour() {
         for (int j = 999; j >= 100; j--) 
         {
             int number = i * j;
-            string possiblePalindrome = convertInt(number);
-            string reverse = reverseString(possiblePalindrome);
+            string possiblePalindrome = ConvertInt(number);
+            string reverse = ReverseString(possiblePalindrome);
             if (possiblePalindrome.compare(reverse) == 0)
             {
                 if (number > maxPalindrome) {

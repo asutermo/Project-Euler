@@ -10,8 +10,11 @@ long long ProblemThree()
 
     while (i < num)
     {
-        if (prime_factor(i) && num % i == 0)
+        if (PrimeFactor(i) && num % i == 0)
+        {
             largest_prime = i;
+            cout << i << " ";
+        }
         ++i;
     }
     return largest_prime;
