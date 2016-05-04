@@ -25,15 +25,14 @@ long long ProblemThree()
         for (size_t j = 0; j < primes.size(); ++j)
         {
            mult *= primes[j];
-           if (mult == num)
-           {
-               foundLargestPrimeFactor = true;
-               break;
-           }
         }
 
-        if (foundLargestPrimeFactor)
+        if (mult == num)
+        {
+            foundLargestPrimeFactor = true;
             break;
+        }
+
         ++i;
     }
     return largest_prime;
