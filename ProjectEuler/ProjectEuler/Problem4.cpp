@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-bool compare(int number)
+bool CheckIsPalindrome(int number)
 {
     int newNum;
     std::vector<int> nums;
@@ -13,7 +13,6 @@ bool compare(int number)
         int newnewNum = number / 10;
         nums.push_back(newNum);
         number = newnewNum;
-        
     }
 
     bool isPalindrome = true;
@@ -38,9 +37,11 @@ int ProblemFour() {
         for (int j = 999; j >= 100; j--)
         {
             int number = i * j;
+            if (number < maxPalindrome)
+                break;
 
             //divide and modulo number
-            if (compare(number))
+            if (CheckIsPalindrome(number))
             {
                 if (number > maxPalindrome) {
                     maxPalindrome = number;
