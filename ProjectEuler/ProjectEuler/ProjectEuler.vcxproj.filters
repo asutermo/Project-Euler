@@ -36,7 +36,10 @@
     <ClCompile Include="Problem4.cpp">
       <Filter>Source Files\Problems</Filter>
     </ClCompile>
-    <ClCompile Include="ProblemFive.cpp">
+    <ClCompile Include="Problem5.cpp">
+      <Filter>Source Files\Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem6.cpp">
       <Filter>Source Files\Problems</Filter>
     </ClCompile>
   </ItemGroup>

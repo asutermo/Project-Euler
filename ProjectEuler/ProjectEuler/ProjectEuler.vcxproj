@@ -151,8 +151,9 @@
     <ClCompile Include="Problem2.cpp" />
     <ClCompile Include="Problem3.cpp" />
     <ClCompile Include="Problem4.cpp" />
-    <ClCompile Include="ProblemFive.cpp" />
+    <ClCompile Include="Problem5.cpp" />
     <ClCompile Include="ProblemHelpers.cpp" />
+    <ClCompile Include="Problem6.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Problem.h" />
