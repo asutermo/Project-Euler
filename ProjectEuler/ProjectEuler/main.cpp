@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
     unsigned long solution5 = ProblemFive();
     std::cout << "Problem 5: " << solution5 << std::endl;
 
-    unsigned long  solution6 = ProblemSix();
+    int solution6 = ProblemSix();
     std::cout << "Problem 6: " << solution6 << std::endl;
 
     system("PAUSE");
